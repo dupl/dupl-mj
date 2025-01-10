@@ -6,8 +6,6 @@
 
 One-click free deployment of your private ChatGPT+Midjourney web application (based on [ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web) development)
 
-[QQ exchange group](https://github.com/Licoy/ChatGPT-Midjourney/issues/30) | [💥PRO version](https://github.com/Licoy/ChatGPT-Midjourney-Pro)
-
 [![WordPress+ChatGPT support](https://img.shields.io/badge/WordPress-AIGC%20deployment-red.svg?logo=wordpress&logoColor=red)](https://github.com/Licoy/wordpress-theme-puock)
 
 ![Main interface](./docs/images/cover.png)
@@ -15,8 +13,6 @@ One-click free deployment of your private ChatGPT+Midjourney web application (ba
 </div>
 
 ## Function support
-> 🍭 The PRO version supports more powerful functions, **Pagoda 5-minute deployment**, super simple configuration, powerful online background management and configuration framework gives you a smooth experience, **occupies less than 100M of memory**, **included Dialogue + painting account pool support, etc. **, supports high concurrency: [💥 Click me to view and experience the PRO version immediately](https://github.com/Licoy/ChatGPT-Midjourney-Pro), **Minimum 1C1G server It will run smoothly**.
-
 - [x] All functions of original `ChatGPT-Next-Web`
 - [x] Midjourney `Imgine` imagine
 - [x] Midjourney `Upscale`
@@ -31,12 +27,6 @@ One-click free deployment of your private ChatGPT+Midjourney web application (ba
 - [x] Drawing progress percentage, real-time image display
 - [x] Customized Discord API, CDN, and Websocket support
 - [x] Support Midjourney service internally without any third-party dependencies
-
-## Transfer API
-> The following is a third-party intermediary API, and there is no guarantee for this project. Please choose to use it yourself. If you encounter any questions, please contact the corresponding platform customer service.
-
-### [GPTNB](https://goapi.gptnb.me)
-Support API access for various models such as ChatGPT, Claude, GPTs, Midjournal, etc., with ultra-low cost ratio [[Access Now]](https://goapi.gptnb.me)
 
 ## Parameter Description
 ### MJ_SERVER_ID

@@ -1,5 +1,5 @@
-export const OWNER = "Licoy";
-export const REPO = "ChatGPT-Midjourney";
+export const OWNER = "dupl";
+export const REPO = "dupl-mj";
 export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
 export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
 export const UPDATE_URL = `${REPO_URL}#keep-updated`;
@@ -65,31 +65,39 @@ Current time: {{time}}`;
 
 export const DEFAULT_MODELS = [
   {
-    name: "gpt-4",
+    name: "gpt-4o",
     available: true,
   },
   {
-    name: "gpt-4-32k",
+    name: "gpt-4o-mini",
     available: true,
   },
   {
-    name: "gpt-4-1106-preview",
+    name: "gemini-1.5-pro",
     available: true,
   },
   {
-    name: "gpt-4-vision-preview",
+    name: "gemini-1.5-flash",
     available: true,
   },
   {
-    name: "gpt-3.5-turbo",
+    name: "gemini-1.5-flash-8b",
     available: true,
   },
   {
-    name: "gpt-3.5-turbo-16k",
+    name: "Llama-3.3-70B-Instruct",
     available: true,
   },
   {
-    name: "gpt-3.5-turbo-1106",
+    name: "Meta-Llama-3.1-405B-Instruct",
+    available: true,
+  },
+  {
+    name: "Meta-Llama-3.1-70B-Instruct",
+    available: true,
+  },
+  {
+    name: "glm-4-flash",
     available: true,
   },
   {

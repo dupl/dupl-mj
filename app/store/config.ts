@@ -40,7 +40,7 @@ export const DEFAULT_CONFIG = {
   models: DEFAULT_MODELS as any as LLMModel[],
 
   modelConfig: {
-    model: "gpt-3.5-turbo" as ModelType,
+    model: "gpt-4o" as ModelType,
     temperature: 0.5,
     top_p: 1,
     max_tokens: 2000,
@@ -165,7 +165,7 @@ export const useAppConfig = create<ChatConfigStore>()(
         }
 
         if (version < 3.5) {
-          state.customModels = "claude,claude-100k";
+          state.customModels = "gemini-1.5-pro-latest,gemini-1.5-flash-latest";
         }
 
         if (version < 3.6) {

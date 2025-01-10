@@ -9,7 +9,7 @@ import ChatGptIcon from "../icons/chatgpt.svg";
 import AddIcon from "../icons/add.svg";
 import CloseIcon from "../icons/close.svg";
 import MaskIcon from "../icons/mask.svg";
-import GemIcon from "../icons/gem.svg";
+import ChatIcon from "../icons/chat.svg";
 import DragIcon from "../icons/drag.svg";
 
 import Locale from "../locales";
@@ -137,10 +137,13 @@ export function SideBar(props: { className?: string }) {
           shadow
         />
         <IconButton
-          icon={<GemIcon />}
-          text={shouldNarrow ? undefined : "Pro"}
+          icon={<ChatIcon />}
+          text={shouldNarrow ? undefined : Locale.Home.NewChat}
           className={styles["sidebar-bar-button"]}
-          onClick={() => window.open(REPO_URL + "-Pro", "_blank")}
+          onClick={() => {
+            chatStore.newSession();
+            navigate(Path.Chat);
+          }}
           shadow
         />
       </div>
